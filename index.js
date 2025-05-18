@@ -7,7 +7,7 @@ const app = express();
 
 
 app.get('/' , (req,res)=>{
-    res.send('<h1>Enter city name in the URL</h1>');
+    res.send('<h1>Enter city name in the URL eg. https://weather-api-xmi6.onrender.com/lucknow</h1>');
 })
 
 app.get('/:city' , async(req, res)=>{
